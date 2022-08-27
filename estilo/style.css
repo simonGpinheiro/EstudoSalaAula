@@ -83,13 +83,12 @@ aside {
 }
 
 li{
-    background-color: blue;
+    background-color: var(--cor-azul);
     list-style-type: none;
-    display: block;
-    /* padding: 10px; */
+    display:block;
 }
 
-li a {
+nav ul li a {
     display: block;
     color: rgb(233, 221, 221);
     padding: 10px;
@@ -147,3 +146,23 @@ footer{
     font-size: 18px;
     text-align: center;
 }		
+
+ul{
+    background-color: var(--cor-azul);
+}
+
+.icones-sociais li{
+    background-color: var(--coz-azul);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+
+}
