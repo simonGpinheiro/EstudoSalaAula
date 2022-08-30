@@ -19,12 +19,33 @@ body{
     background-color: var(--cor-de-fundo);
 }
 
+header{
+    height: 150px;
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    background-color: var(--cor-de-fundo);
+}
+
+header nav{
+    width: 1024px;
+    position: absolute;
+    bottom: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+
+}
+
 main{
     background-color: var(--cor-secundaria);
     text-align: justify;
     /* margin: 20px; */
     padding: 20px;
     position: relative;
+    width: 1024px;
+    margin: auto;
  }
 
 blockquote{
@@ -55,6 +76,10 @@ cite{
 
 h2 {
     font-size: 40px;
+}
+
+p{
+    text-indent: 50px;
 }
 
 figure{
@@ -147,8 +172,9 @@ footer{
     text-align: center;
 }		
 
-ul{
+aside, nav, ul{
     background-color: var(--cor-azul);
+    list-style: none;
 }
 
 .icones-sociais li{
@@ -164,5 +190,25 @@ ul{
     width: 40px;
     height: 40px;
     display: inline-block;
+    color: white;
+    /*font-size: 0; !important; */
+    text-indent: -9999px;
+    /* color: rgba(0, 0, 0); */
+    
+
+}
+
+.github{
+    background-image: url(../img/github.png);
+
+}
+
+.linkedin{
+    background-image: url(../img/linkedin.png);
+
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
 
 }
