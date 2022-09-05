@@ -20,11 +20,11 @@ body{
 }
 
 header{
+    background-color: var(--cor-de-fundo);
     height: 150px;
     width: 1024px;
     margin: auto;
     position: relative;
-    background-color: var(--cor-de-fundo);
 }
 
 header img{
@@ -56,6 +56,25 @@ input[type=text]{
     font-size: 20px;
     text-align: center;
     color: var(--cor-secundaria);
+
+}
+
+#carrinho{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    background-color: none;
+    border: none;
+
+}
+
+#clientes{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    background-color: none;
+    border: none;
+
 
 }
 
